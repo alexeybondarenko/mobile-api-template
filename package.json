@@ -1,0 +1,32 @@
+{
+  "name": "mobile-api-template",
+  "version": "0.0.1",
+  "description": "template project for mobile api",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexeybondarenko/mobile-api-template.git"
+  },
+  "keywords": [
+    "mobile",
+    "api",
+    "server",
+    "rest",
+    "template"
+  ],
+  "author": "Alexey Bondarenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexeybondarenko/mobile-api-template/issues"
+  },
+  "homepage": "https://github.com/alexeybondarenko/mobile-api-template",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "express": "^4.12.4",
+    "validator": "^3.40.1"
+  }
+}
