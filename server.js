@@ -35,12 +35,12 @@ app.use(function(req, res, next) {
 
 router.get('/', function (req, res) {
     res.status(200).json({
-        text: "Hi. I'm mobile api template."
+        text: "Hi. I'm mobile api template 2."
     })
 });
 
 // REGISTER OUR ROUTES -------------------------------
-app.use('/api', router);
+app.use('/v1', router);
 
 // START THE SERVER
 // =============================================================================
